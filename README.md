@@ -14,6 +14,8 @@ $ bundle install
 
 # Scripts
 ## bin/login.rb
+See Also: https://github.com/fastlane/fastlane/blob/master/spaceship/lib/spaceship/client.rb#L209
+
 ```
 $ export SPACESHIP_MAIL=<your email of apple developer account>
 $ export SPACESHIP_PASS=<your password>
