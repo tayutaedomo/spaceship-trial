@@ -20,7 +20,6 @@ $ export SPACESHIP_PASS=<your password>
 $ bundle exec ruby bin/login.rb
 ```
 
-See Also: https://github.com/fastlane/fastlane/blob/master/spaceship/lib/spaceship/client.rb#L209
-
+See Also: https://github.com/fastlane/fastlane/blob/master/spaceship/lib/spaceship/client.rb#L209  
 You can use keychain entry if you registered email and password.
 
