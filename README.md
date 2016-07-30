@@ -51,3 +51,23 @@ $ bundle exec ruby bin/app_find.rb "com.example.testapp"
         identifiers_count=nil>
 ```
 
+
+## app_create.rb
+```
+$ bundle exec ruby bin/app_create.rb "com.example.testapp" "Test App"
+<Spaceship::Portal::App 
+        app_id="WMFNB5768H",
+        name="Test App",
+        platform="ios",
+        prefix="2427AM2VGT",
+        bundle_id="com.example.testapp",
+        is_wildcard=false,
+        features={"push"=>true, "inAppPurchase"=>true, "gameCenter"=>true, "passbook"=>false, "dataProtection"=>"", "homeKit"=>false, "cloudKitVersion"=>1, "iCloud"=>false, "LPLF93JG7M"=>false, "IAD53UNK2F"=>false, "V66P55NK2I"=>false, "SKC3T5S89Y"=>false, "APG3427HIY"=>false, "HK421J6T7P"=>false, "WC421J6T7P"=>false},
+        enabled_features=["gameCenter", "inAppPurchase", "push"],
+        dev_push_enabled=false,
+        prod_push_enabled=false,
+        app_groups_count=nil,
+        cloud_containers_count=nil,
+        identifiers_count=nil>
+```
+
