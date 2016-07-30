@@ -71,3 +71,47 @@ $ bundle exec ruby bin/app_create.rb "com.example.testapp" "Test App"
         identifiers_count=nil>
 ```
 
+
+## provisioning_profile_find.rb
+```
+$ bundle exec ruby bin/provisioning_profile_find.rb "com.example.testapp"
+"Bundle ID: com.example.testapp"
+[<Spaceship::Portal::ProvisioningProfile::AppStore 
+        id="",
+        uuid="",
+        expires=,
+        distribution_method="store",
+        name="",
+        status="Active",
+        type="iOS Distribution",
+        version="2",
+        platform="ios",
+        managing_app=nil,
+        app=<Spaceship::Portal::App
+                app_id="", 
+                name="",
+                platform="ios",
+                prefix="",
+                bundle_id="com.example.testapp",
+                is_wildcard=false,
+                features={"push"=>false, "iCloud"=>false, "inAppPurchase"=>true, "gameCenter"=>true, "LPLF93JG7M"=>false, "passbook"=>false, "IAD53UNK2F"=>false, "V66P55NK2I"=>false, "dataProtection"=>"", "SKC3T5S89Y"=>false, "APG3427HIY"=>false, "HK421J6T7P"=>false, "homeKit"=>false, "WC421J6T7P"=>false, "cloudKitVersion"=>1},
+                enabled_features=["gameCenter", "inAppPurchase"],
+                dev_push_enabled=false,
+                prod_push_enabled=false,
+                app_groups_count=nil,
+                cloud_containers_count=nil,
+                identifiers_count=nil>,
+        certificates=[<Spaceship::Portal::Certificate::Production
+                id="",
+                name="iOS Distribution",
+                status=nil,
+                created=nil,
+                expires=,
+                owner_type="team",
+                owner_name=nil,
+                owner_id=nil,
+                type_display_id="", 
+                can_download=nil>],
+        devices=[]>]
+```
+
