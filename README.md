@@ -115,3 +115,12 @@ $ bundle exec ruby bin/provisioning_profile_find.rb "com.example.testapp"
         devices=[]>]
 ```
 
+
+## provisioning_profile_download.rb
+```
+$ bundle exec ruby bin/provisioning_profile_download.rb "com.example.testapp"
+"Bundle ID: com.example.testapp"
+$ ls output.mobileprovision
+output.mobileprovision
+```
+
