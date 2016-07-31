@@ -124,3 +124,30 @@ $ ls output.mobileprovision
 output.mobileprovision
 ```
 
+
+## certificate_find_all.rb
+```
+$ bundle exec ruby bin/certificate_find_all.rb
+[<Spaceship::Portal::Certificate::Production
+  ...
+]
+```
+
+
+## certificate_find.rb
+```
+$ bundle exec ruby bin/certificate_find.rb "XXXXXXXXXX"
+"ID: LU2XN39HJF"
+<Spaceship::Portal::Certificate::Production 
+        id="XXXXXXXXXX",
+        name="",
+        status="Issued",
+        created=,
+        expires=,
+        owner_type="team",
+        owner_name="",
+        owner_id="",
+        type_display_id="R58UK2EWSO",
+        can_download=true>
+```
+
