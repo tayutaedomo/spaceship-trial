@@ -125,19 +125,28 @@ output.mobileprovision
 ```
 
 
+## provisioning_profile_create.rb
+```
+$ bundle exec ruby bin/provisioning_profile_create.rb "com.example.testapp" "XXXXXXXXXX" "Test App"
+"Bundle ID: com.example.testapp"
+"Certificate ID: XXXXXXXXXX"
+<Spaceship::Portal::ProvisioningProfile::AdHoc
+        ...>
+```
+
+
 ## certificate_find_all.rb
 ```
 $ bundle exec ruby bin/certificate_find_all.rb
 [<Spaceship::Portal::Certificate::Production
-  ...
-]
+  ...]
 ```
 
 
 ## certificate_find.rb
 ```
 $ bundle exec ruby bin/certificate_find.rb "XXXXXXXXXX"
-"ID: LU2XN39HJF"
+"Certificate ID: XXXXXXXXXX"
 <Spaceship::Portal::Certificate::Production 
         id="XXXXXXXXXX",
         name="",
