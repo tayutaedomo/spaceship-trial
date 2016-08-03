@@ -9,10 +9,10 @@ Spaceship.login
 bundle_id = ARGV[0]
 p "Bundle ID: #{bundle_id}"
 
-filtered_profiles = Spaceship.provisioning_profile.app_store.find_by_bundle_id(bundle_id)
-#p filtered_profiles.first.download
+filtered_profiles = Spaceship.provisioning_profile.find_by_bundle_id(bundle_id)
+#p filtered_profiles.first
 
 if filtered_profiles.first
-  File.write("output.mobileprovision", filtered_profiles.first.download)
+  File.write('download.mobileprovision', filtered_profiles.first.download)
 end
 

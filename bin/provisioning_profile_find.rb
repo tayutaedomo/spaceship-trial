@@ -12,6 +12,7 @@ p "Bundle ID: #{bundle_id}"
 #profiles = Spaceship.provisioning_profile.all
 #p profiles
 
-filtered_profiles = Spaceship.provisioning_profile.app_store.find_by_bundle_id(bundle_id)
+#filtered_profiles = Spaceship.provisioning_profile.app_store.find_by_bundle_id(bundle_id)
+filtered_profiles = Spaceship.provisioning_profile.find_by_bundle_id(bundle_id)
 p filtered_profiles
 
