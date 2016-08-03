@@ -14,11 +14,12 @@ $ bundle install
 
 # Scripts
 ## Before Execute
-Set login information to environment variables.
+Set login information to environment variables.  
+- https://github.com/fastlane/fastlane/tree/master/credentials_manager#using-environment-variables
 
 ```
-$ export SPACESHIP_MAIL=<your email of apple developer account>
-$ export SPACESHIP_PASS=<your password>
+$ export FASTLANE_USER=<your email of apple developer account>
+$ export FASTLANE_PASSWORD=<your password>
 ```
 
 
