@@ -121,8 +121,9 @@ $ bundle exec ruby bin/provisioning_profile_find.rb "com.example.testapp"
 ```
 $ bundle exec ruby bin/provisioning_profile_download.rb "com.example.testapp"
 "Bundle ID: com.example.testapp"
-$ ls output.mobileprovision
-output.mobileprovision
+
+$ ls download.mobileprovision
+download.mobileprovision
 ```
 
 
@@ -159,5 +160,15 @@ $ bundle exec ruby bin/certificate_find.rb "XXXXXXXXXX"
         owner_id="",
         type_display_id="R58UK2EWSO",
         can_download=true>
+```
+
+
+## certificate_download.rb
+```
+$ bundle exec ruby bin/certificate_download.rb "XXXXXXXXXX"
+"Certificate ID: XXXXXXXXXX"
+
+$ ls download.cer
+download.cer
 ```
 
