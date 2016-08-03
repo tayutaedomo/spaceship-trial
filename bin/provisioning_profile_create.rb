@@ -2,7 +2,7 @@
 
 require 'spaceship'
 
-Spaceship.login(ENV['SPACESHIP_MAIL'], ENV['SPACESHIP_PASS'])
+Spaceship.login
 
 # Refer: https://github.com/fastlane/fastlane/blob/master/spaceship/docs/DeveloperPortal.md#create-a-provisioning-profile
 
