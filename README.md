@@ -129,7 +129,7 @@ download.mobileprovision
 
 ## provisioning_profile_create.rb
 ```
-$ bundle exec ruby bin/provisioning_profile_create.rb "com.example.testapp" "XXXXXXXXXX" "Test App"
+$ bundle exec ruby bin/provisioning_profile_create.rb "adhoc" "com.example.testapp" "XXXXXXXXXX" "Test App"
 "Bundle ID: com.example.testapp"
 "Certificate ID: XXXXXXXXXX"
 <Spaceship::Portal::ProvisioningProfile::AdHoc
